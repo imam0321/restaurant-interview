@@ -26,7 +26,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar lg:py-4 lg:px-[200px]">
+    <div className="navbar py-[20px] sticky top-0 z-10 shadow-md">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">
           <img src={Logo} alt="" />
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex-none">
-        <button className="btn btn-warning lg:px-[24px] lg:py-[10px] rounded-none hidden lg:inline">
+        <button className="bg-[#FEBF00] lg:px-[24px] lg:py-[8px] font-roboto rounded-none hidden lg:inline">
           BOOK A TABLE
         </button>
         <div className="dropdown dropdown-end lg:hidden">

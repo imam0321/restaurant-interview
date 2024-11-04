@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Raleway"],
+        roboto: ["Roboto"],
+        Raleway: ["Raleway", "sans-serif"],
+        bebas: ["Bebas Neue"],
       },
     },
   },
