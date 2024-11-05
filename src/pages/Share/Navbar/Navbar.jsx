@@ -1,5 +1,6 @@
 import Menubar from "../../../assets/logo/menu 2.png";
 import Logo from "../../../assets/logo/Logo.png";
+import CoverBg from "../../../assets/logo/Rectangle 4.png";
 
 const Navbar = () => {
   const navOptions = (
@@ -26,8 +27,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar py-[20px] sticky top-0 z-10 shadow-md">
-      <div className="flex-1">
+    <div style={{ backgroundImage: `url(${CoverBg})` }} className="navbar py-[20px] sticky top-0 z-10 shadow-md bg-cover bg-no-repeat bg-red-700 min-w-fit lg:px-[200px] px-4">
+      <div className="flex-1 ">
         <a className="btn btn-ghost text-xl">
           <img src={Logo} alt="" />
         </a>

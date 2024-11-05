@@ -9,14 +9,14 @@ const Hero = () => {
           <div>
             <img
               src={CoverImg}
-              className="w-[700px] shadow-2xl relative z-10"
+              className="w-[750px] shadow-2xl relative z-10"
               alt="Cover"
             />
 
             <img
               src={StarImg}
               className="w-[45px] h-[45px] absolute lg:-top-[30px] lg:-right-[30px] -top-6 -right-0"
-              alt="Cover"
+              alt="Star"
             />
           </div>
 
@@ -29,10 +29,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="z-10">
-          <p className=" lg:text-[5rem] text-[3rem] lg:leading-[100px] font-bold font-bebas text-white bg-[rgba(189,31,23,0.5)] my-2">
+          <p className=" lg:text-[5rem] text-[3rem] lg:leading-[90px] font-bold font-bebas text-white bg-[rgba(189,31,23,0.5)] my-2">
             TASTE THE AUTHENTIC SAUDI CUISINE
           </p>
-          <p className="w-[22rem] text-white font-roboto py-2">
+          <p className="lg:w-[22rem] text-white font-roboto py-2">
             Among the best Saudi chefs in the world, serving you something
             beyond flavor.
           </p>
